@@ -1,0 +1,17 @@
+  
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1>Welcome To Photogram</h1>
+  
+    {% if session.logged_in == NULL %}
+      <a href="/register" class="btn btn-primary btn-lg">Register</a>
+      <a href="/login" class="btn btn-success btn-lg">Login</a>
+    {% else %}
+    	<a href="/logout" class="btn btn-danger btn-lg">Logout</a>
+
+    {% endif %}
+
+  </div>
+{% endblock %}

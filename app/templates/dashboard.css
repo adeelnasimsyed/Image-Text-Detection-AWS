@@ -1,0 +1,40 @@
+.album {
+    
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    
+    float:left;
+    width: 33.333%;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    border: 0;
+
+}
+
+.card > img{
+    
+    margin-bottom: 0.75rem;
+    max-width: 100%;
+}
+
+.card-text{
+    
+    font-size: 85%
+}
+
+footer {
+    
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p{
+    
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+
+{% block body %}
+
+<img class="img-responsive" src="{{url_for('send_image', filename = photo.filename_orginal)}}" style="border:2px solid black;">
+
+<hr>
+<br>
+
+<img class="img-responsive" src="{{url_for('send_image', filename = photo.filename_edit)}}" style="border:2px solid black;">
+{% endblock %}
